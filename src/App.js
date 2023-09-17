@@ -1,16 +1,16 @@
-import './App.css';
-import ContentHolder from './Header/Content/ContentHolder';
-import Header from './Header/Header';
-import NavigationBar from './Navigation/NavigationBar';
+import "./App.css";
+import ContentHolder from "./Content/ContentHolder";
+import Header from "./Header/Header";
+import NavigationBar from "./Navigation/NavigationBar";
 
 function App() {
   return (
     <div className="main-content-holder">
-      <Header/>
+      <Header />
       <div className="main-content">
         <NavigationBar />
         <ContentHolder />
-      </div> 
+      </div>
     </div>
   );
 }
