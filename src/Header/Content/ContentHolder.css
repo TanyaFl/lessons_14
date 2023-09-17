@@ -1,0 +1,8 @@
+.content-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    flex-grow: 1;
+    border-radius: 10px;
+}

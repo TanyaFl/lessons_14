@@ -1,0 +1,23 @@
+.navigation-bar {
+    padding: 5px;
+    background-color: aliceblue;
+    width: 450px;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+.navigation-menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+a.menu-item {
+    text-decoration: none;
+    color: navy;
+    font-size: x-large;
+    word-spacing: 1.5px;
+}
+
+a:hover {
+    color: red;
+    font-weight: 700;
+}
